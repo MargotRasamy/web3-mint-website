@@ -7,7 +7,7 @@ function App() {
   const [accounts, setAccounts] = useState([])
 
   return (
-    <div className="App">
+    <div className="App moving-background">
       <NavBar accounts={accounts} setAccounts={setAccounts} />
       <MainMint accounts={accounts} setAccounts={setAccounts} />
     </div>
